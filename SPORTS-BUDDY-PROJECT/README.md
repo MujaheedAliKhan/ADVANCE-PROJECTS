@@ -87,10 +87,8 @@ Simply open `index.html` in any modern web browser to use the application.
 
 ---
 
-## 📌 Live Preview
-
-🔗 **[Click Here For Live Demo – Registration Form]()**  
-_(Replace with your live deployment link)_
+## Live Demo
+--This is a link of [SPORTS-BUDDY-PROJECT](https://mujaheedalikhan.github.io/ADVANCE-PROJECTS/SPORTS-BUDDY-PROJECT/index.html)
 
 ---
 
