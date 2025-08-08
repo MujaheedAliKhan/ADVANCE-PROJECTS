@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="admin-dash-container">
+     <div class="admin-container">
+        <div class="sec-1">
+            <h2>Welcome Admin... <span id="admin-name"></span>!</h2>
+            <p>Your Role: <span id="admin-role"></span></p>
+            <button type="submit" id="logout-btn" class="logout-btn">Logout</button>
+        </div>
+
+        <div class="sec-2">
+            <h3>Add New Event</h3>
+        <form id="event-form">
+            <input type="text" id="event-name" placeholder="Event Name" required>
+            <input type="date" id="event-date" required>
+            <button type="submit">Add Event</button> 
+        </form>
+        </div>
+
+        <div class="sec-3">
+            <h3>All Sports Events</h3>
+            <ul id="events-list">
+
+            </ul>
+        </div>
+    </div>
+   </div>
+
+    <script src="./scripts/admin-dashboard.js"></script>
+    <script src="./scripts/loggers.js"></script>
+</body>
+</html>
