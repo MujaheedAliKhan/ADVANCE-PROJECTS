@@ -158,30 +158,6 @@ Simply open `index.html` in any modern web browser to use the application.
 
 ---
 
-## 🧠 What is `padding: min(3vw, 20px) max(2vw, 10px);`?
-
-This sets **top/bottom** padding as `min(3vw, 20px)`  
-and **left/right** padding as `max(2vw, 10px)`
-
-- `vw` means **viewport width**.  
-- `min()` picks the **smallest** of the two values  
-- `max()` picks the **largest**
-
-### Example:
-If your screen is wide:
-- `3vw` might be 30px → `min(3vw, 20px)` = **20px**  
-- `2vw` might be 40px → `max(2vw, 10px)` = **40px**
-
-If your screen is small:
-- `3vw` = 12px → `min(3vw, 20px)` = **12px**  
-- `2vw` = 8px → `max(2vw, 10px)` = **10px**
-
-So it adjusts padding based on screen size:
-✅ Better responsiveness  
-✅ Clean mobile and desktop layout
-
----
-
 ## 💡 Future Improvements
 
 - Backend integration with database
