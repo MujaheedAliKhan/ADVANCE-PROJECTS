@@ -43,6 +43,7 @@ html,body{
     flex-direction: column;
 }
 .login-form input{
+    max-width: 100vw;
     text-align: left;
     padding: .5rem 2.5rem;
     margin-bottom: .4rem;
@@ -55,6 +56,7 @@ html,body{
     color: black;
 }
 .login-form button{
+    max-width: 100vw;
     padding: .4rem;
     font-weight: 600;
     font-size: .7rem;
@@ -121,6 +123,7 @@ html,body{
     flex-direction: column;
 }
 #reg-form .register-form input{
+    max-width: 100vw;
     text-align: left;
     padding: .5rem 2.5rem;
     margin-bottom: .4rem;
@@ -145,6 +148,7 @@ html,body{
     margin-bottom: .6rem; 
 }
 #reg-form .register-form button{
+    max-width: 100vw;
     padding: .4rem;
     font-weight: 600;
     font-size: .7rem;
@@ -381,11 +385,23 @@ html,body{
         letter-spacing: 0;
     }
     .log-container {
-        width: 80vw;
+        width: 85vw;
         margin: 1rem;
     }
+    .login-form input{
+        width: 65vw;
+    }
+    .login-form button{
+        width: 65vw;
+    }
     .reg-container{
-        width: 80vw;
+        width: 85vw;
+    }
+    #reg-form .register-form input{
+        width: 65vw;
+    }
+    #reg-form .register-form button{
+        width: 65vw;
     }
     .container-2 h1{
         font-size: 1.rem;
