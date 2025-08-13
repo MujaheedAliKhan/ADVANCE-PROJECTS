@@ -6,6 +6,7 @@
 }
 
 html,body{
+    /* height: 100dvh; */
     background: linear-gradient(to top left, green, white, orange);
 }
 
@@ -24,6 +25,7 @@ html,body{
     align-items: center;  
 } 
 .log-container{
+    max-width: 100vw;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -98,6 +100,7 @@ html,body{
     align-items: center;
 }
 .reg-container{
+    max-width: 100vw;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -167,7 +170,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 100vh;
     padding: 2.5rem;
 }
 
@@ -277,7 +280,7 @@ html,body{
 
 /* admin-dashboard */
 .admin-dash-container{
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,7 +289,7 @@ html,body{
 .admin-container{
     border-radius: .3rem;
     border: .05rem solid white;
-    padding: clamp(1.5rem, 2vw, 2.5rem) clamp(2rem, 3vw, 3rem);
+    padding: clamp(1.5rem, 2vw, 2.5rem) clamp(2rem, 4vw, 2.5rem);
     box-shadow: 0 0 .5rem orange;
 }
 .admin-container .sec-1{
@@ -319,6 +322,7 @@ html,body{
     flex-direction: column;
 }
 .sec-2 #event-form input{
+    width: 100%;
     text-align: left;
     padding: .5rem 2.5rem;
     margin-bottom: .4rem;
@@ -378,9 +382,12 @@ html,body{
         letter-spacing: .5rem;
         margin-bottom: 1.5rem;
     }
-    /* .log-container{
-        padding: 3rem 3rem;
-    } */
+    .log-container{
+        width: 80vw;
+    }
+    .reg-container{
+        width: 80vw;
+    }
     .register-container #heading{
         letter-spacing: .4rem;
         margin-bottom: 2rem;
@@ -427,11 +434,14 @@ html,body{
         margin-bottom: .5rem;
     }
     .sec-2 h3{
-        font-size: 5vw;   
+        font-size: vw;   
     }
     .sec-2 ul li{
         font-size: .5rem;
     }
+    /* .sec-2 #event-form input{
+        width: 80vw;
+    } */
     .sec-2 ul li button{
         font-size: .6rem;
         padding: .1rem .6rem;
@@ -440,6 +450,6 @@ html,body{
         font-size: 4vw;
     }
     .sec-3 ul li{
-        font-size: .6rem;
+        font-size: .8rem;
     }
 }
